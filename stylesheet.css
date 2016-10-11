@@ -1,0 +1,506 @@
+body {
+  background: black;
+  margin:0px;
+}
+
+* {
+  color: white;
+  font-size: 1em;
+}
+
+@font-face {
+  font-family: Supernatural;
+  src: url('Supernatural_Knight.ttf');
+}
+
+nav {
+  display: inline;
+  position: fixed;
+  margin: 0px 0px;
+  padding-right: 50px;
+  top:0px;
+  width: 100%;
+  background: -webkit-linear-gradient(white, black);
+  background: -moz-linear-gradient(white, black);
+}
+
+h1 {
+  display: inline;
+  font-family: Supernatural;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.nav {
+  display: inline;
+  overflow: hidden;
+  float: right;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.navitem {
+  display: inline;
+}
+
+.navitem a {
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+.border {
+  border-right: 1px solid white;
+  display: inline;
+  margin-right: 3px;
+}
+
+.last {
+  margin-right: 5px;
+}
+
+.header {
+  background-image: url("images/samdeansmaller.jpg");
+  background-repeat: no-repeat;
+  width: 880px;
+  height: 272px;
+  margin: 0 auto;
+  align: center;
+  clear: both;
+  margin-top:50px;
+}
+
+@media screen and (min-width: 880px) {
+  .header {
+    background-image: url("images/samdeansmaller.jpg");
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 272px;
+    margin: 0 auto;
+    clear: both;
+    margin-top:50px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .header {
+    background-image: url("images/samdeancropped.jpg");
+    background-repeat: no-repeat;
+    width: 525px;
+    height: 272px;
+    margin: 0 auto;
+    clear: both;
+    margin-top:50px;
+  }
+}
+
+
+
+.welcome{
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 2em;
+}
+
+hr.welcome {
+  width: 70%;
+}
+
+h3 {
+  font-family: Tahoma;
+  text-align: center;
+}
+
+.site-content {
+  align: center;
+}
+
+.one {
+  text-align: center;
+  font-family: Arial;
+}
+
+.hrci {
+  width: 80%;
+  box-shadow: 0px 0px 10px 1px white;
+}
+
+.ci p {
+  padding: 1px;
+}
+
+tr {
+  margin-bottom: 4px;
+}
+
+td.ci {
+  margin: 0px 20px;
+  text-align: center;
+  width: 500px;
+}
+
+
+.home {
+  text-decoration: none;
+}
+
+pre {
+  font-family: calibri;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.panel {
+  width: 70%;
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+h4 {
+  font-family: "Century Gothic";
+  text-align: center;
+}
+
+.panel-image {
+  width: 384px;
+  height: 216px;
+  margin: 0 auto;
+}
+
+.panel-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.panel-content {
+  margin-top: 0px;
+  padding: 0% 10%;
+  font-family: Tahoma;
+  align: center;
+}
+
+.mol {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 65px;
+  width: 100%;
+  border-top: 1px solid white;
+  clear: both;
+  background: -webkit-linear-gradient(Black 30%, White);
+  background: -moz-linear-gradient(Black 50%, White);
+}
+
+h2 {
+  font-family: Supernatural;
+  margin: 0px 10px;
+}
+
+.empty-space {
+  width: 100%;
+  margin: 150px 0px;
+}
+
+.empty-space-small {
+  width: 100%;
+  margin: 75px 0px;
+}
+
+.panel2 {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0px;
+  border: 1px solid white;
+  width: 800px;
+  border-radius: 10px 10px 10px 10px;
+  background: white;
+
+}
+
+@media screen and (max-width: 800px) {
+  .panel2 {
+    width: 99%;
+  }
+}
+
+.panel2-title {
+  background: -webkit-linear-gradient(Dimgrey, Silver);
+  background: -moz-linear-gradient(Dimgrey, Silver);
+  border-radius: 10px 10px 0px 0px;
+  width: auto;
+  padding: 10px;
+  margin: 0px;
+}
+
+.panel2-content {
+  margin: 0px;
+  padding: 0px;
+  background-clip: border-box;
+  height: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.paragraph {
+  text-indent: 60px;
+  margin: 30px;
+  color: black;
+}
+
+sup {
+  color: black;
+}
+
+
+div.archive {
+  margin: 0 auto;
+  width:  80%;
+  height: 200px;
+}
+
+table.archive{
+  width: 100%;
+  height: 100%;
+}
+
+.archive p {
+  text-align: center;
+  margin: 0px;
+}
+
+table.archive a {
+  color: black;
+}
+
+.archive a {
+  text-decoration: none;
+}
+
+.archive a:hover {
+  color: red;
+}
+
+div.books {
+  width: 100%;
+  height: 281px;
+  background-image: url("images/novelseries.jpg");
+}
+
+.books {
+  font-size: 300%
+}
+
+p.book {
+  text-indent: 60px;
+}
+
+.author {
+  margin: 0px auto;
+  width: 60%;
+  height: 300px;
+
+}
+
+.chuck {
+  width: 200px;
+  height: 200px;
+}
+
+.banner h4 {
+  font-size: 2em;
+}
+
+#tv {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.tv {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+
+#info {
+  font-family: Tahoma;
+  text-align: center;
+}
+
+.spoiler-tag h4 {
+  font-size: 1.8em;
+}
+
+.s-info {
+  text-align: center;
+  font-family: Calibri;
+}
+
+.spoilers {
+  display: none;
+}
+
+.spoilers img{
+  width: 380px;
+  height: 569px;
+}
+
+@media screen and (max-width: 500px) {
+  .spoilers img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.spoiler-holder {
+  cursor: pointer;
+}
+
+.imgbanner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.imgbanner img {
+  width: 100%;
+  height: 100%;
+}
+
+.deanGym {
+  width: 592px;
+  margin: 0 auto;
+}
+
+.deanGym img {
+  max-width: 598px;
+  width: 100%;
+}
+
+@media screen and (max-width: 598px) {
+    .deanGym {
+        width: 100%;
+    }
+}
+
+.tips-n-tricks {
+  margin: 0 auto;
+}
+.tips-n-tricks h4 {
+  font-size: 3em;
+}
+.tips-n-tricks p {
+  text-align: center;
+  font-family: Calibri;
+  padding: 0px 40px;
+}
+
+.tips {
+  border: 0.5px solid white;
+  padding: 0px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tips-title h5{
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.5em;
+  font-family: Candara;
+  border-bottom: 0.5px solid white;
+}
+
+.tips-content {
+  min-height: 100px;
+}
+
+.tips-content img{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0px 5px 5px 0px;
+}
+
+.tips-content p {
+  margin: 0px 5px 10px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .tips {
+        width: 99%;
+    }
+}
+
+.m-o-l-info {
+  width: 80%;
+  padding: 0px;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+
+
+.m-o-l-p p {
+  width: inherit;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+.form p {
+  width: inherit;
+  padding: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.form-btn a {
+  padding: 10px;
+  text-decoration: none;
+  border: 0.5px solid white;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+.form-btn a:active {
+  position: relative;
+  top: 5px;
+}
+
+.form-container {
+  border: 0.5px solid white;
+  width: 70%;
+  height: 700px;
+  margin: 0 auto;
+}
+
+form .section {
+  margin: 0px;
+  font-family: sans-serif;
+  padding: 10px;
+  border-bottom: 0.5px solid white;
+}
+
+form .section .input {
+  left: 30px;
+}
+
+/* {
+  border: 1px solid grey;
+}
